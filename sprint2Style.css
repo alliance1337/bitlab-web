@@ -1,0 +1,283 @@
+body{
+	background-color: #E8EAED;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+	margin: 5px 800px 0px 0px;
+  	width: 800px;
+  	height: 40px;
+  	justify-content: left;
+}
+
+.format{
+  display: flex;
+}
+.searchpole {
+  width: 20%;
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  background-color: #2C4869;
+}
+
+.searchknopka {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -30px;
+}
+
+.searchknopka img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.title{
+	font-family: Times New Roman;
+	display: flex;
+	background-color: #4277A5;
+	justify-content: space-between;
+}
+.title h2{
+	color: white;
+	margin: 10px 120px 0px 200px;
+}
+.alldesc{
+	display: flex;
+	margin-top: 30px;
+}
+.links{
+	margin-left: 200px;
+}
+.links a{
+	display: flex;
+	width: 100px;
+	padding-top: 20px;
+	direction: column;
+	text-decoration: none;
+	color: #00365c;
+	font-size: 15px;
+}
+.fotka{
+	width: 270px;
+	height: 330px;
+	background-color: whitesmoke;
+	border-radius: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.fotka img{
+	width: 250px;
+	height: 250px;
+	margin-bottom: 15px;
+}
+.fotka button{
+	height: 30px;
+	margin-bottom: -5px;
+	background-color: #E7E9EC;
+	border: none;
+	color: darkblue;
+	border-radius: 6%;
+}
+.seconddiv{
+	margin-left: 55px;
+	display: flex;
+	flex-direction: column;
+}
+.maininfo{
+	margin-top: 20px;
+	background-color: whitesmoke;
+	width: 270px;
+	height: 200px;
+	border-radius: 5%;
+}
+.friends{
+	color:#00365c ;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+.frdcnt{
+	color:#b3b3b3;
+}
+.friendsinfo{
+	display: flex;
+	margin-top: 10px;
+
+}
+.friendsinfo2{
+	display: flex;
+	margin-top: 20px;
+
+}
+.friendsinfo div img{
+	width: 50%;
+
+	border-radius: 50%;
+}
+.imya{
+	color: #00365c;
+	font-size: 13px;
+}
+.divka{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.friendsinfo2 div img{
+	width: 50%;
+	border-radius: 50%;
+}
+.biven{
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.bio{
+	background-color: whitesmoke;
+	width: 600px;
+	height: 300px;
+	border-radius: 2%;
+}
+.mainname{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.onlinebut{
+	margin-left: 400px;
+	color: #b3b3b3;
+}
+.name2{
+	font-size: 18px;
+}
+.life{
+	font-size: 15px;
+}
+hr{
+	margin-left: 20px;
+	height: 1px;
+	margin-right: 10px;
+	background-color: lightgray;
+	border: none;
+
+}
+.biobio{
+	display: flex;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.br{
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	color: grey;
+
+}
+.br span{
+	margin-top: 5px;
+}
+.mymaininfo{
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	color:#00365c ;
+}
+.mymaininfo span{
+	margin-top: 5px;
+
+}
+.mybio{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify-content: space-evenly;
+}
+.mybioinfo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.letstalk{
+	color: grey;
+	font-size: 13px;
+}
+.allcnt{
+	color:#00365c ;
+	margin-bottom:10px ;
+}
+.allphotos{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 200px;
+	background-color: whitesmoke;
+	border-radius: 2%;
+	margin-top: 20px;
+}
+.photoname{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+.photoname span{
+	color: grey;
+	margin-left: 10px;
+}
+.photoplenka img{
+	margin-left: 18px;
+	margin-top: 20px;
+	width: 125px;
+	height: 125px;
+}
+.lastdiv{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 250px;
+	background-color: whitesmoke;
+	margin-top: 20px;
+	border-radius: 3%;
+
+}
+.myavatar{
+	display: flex;
+}
+.myavatar img{
+
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+
+}
+.myavatar div{
+	margin-top: 20px;
+	margin-left: 18px;
+}
+.myname{
+	display: flex;
+	flex-direction: column;
+	color: #00365c;
+}
+.myname span{
+	margin-top: 5px;
+	color: grey;
+	font-size: 13px;
+}
+.limps{
+	font-size: 13px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
