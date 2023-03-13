@@ -1,0 +1,84 @@
+body{
+	margin: 20px;
+}
+.content{
+	font-family: Helvetica;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	background-color: #84000F;
+}
+.bitlab{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+.news{
+	color: white;
+	text-decoration: none;
+	font-weight: 100;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	font-weight: 100;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.main{
+	display: flex;
+	background-color: #AFDBDB;
+	padding-top: 20px;
+	margin-top: 20px;
+	padding-bottom: 0;
+}
+.photo{
+	width: 35%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.desc{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 65%;
+}
+.lat{
+	text-align: center;
+}
+/*.news0{
+	font-family: Arial;
+}
+.news13{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	color: black;
+	border: 10px;
+}
+.news13 img{
+	width: 435px;
+}
+.news13 button{
+	color: white; 
+	background-color: #820012; 
+	padding: 10px 20px 10px; 
+	border: 0px;
+	margin-left: 10px;
+}
+.news13 h2{
+	margin-left: 10px;
+}
+.news13 p{
+	margin-left: 10px;
+}
+news1{
+	border: 10px;
+}*/
+
+
