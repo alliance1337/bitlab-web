@@ -1,0 +1,248 @@
+body{
+	background-color: #E8EAED;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.starter{
+	font-family: Times New Roman;
+	display: flex;
+	background-color: #4277A5;
+	justify-content: space-between;
+}
+.starter h2{
+	color: white;
+	margin: 10px 120px 0px 200px;
+}
+.content1 {
+		margin: 5px 800px 0px 0px;
+  	width: 800px;
+  	height: 40px;
+  	justify-content: left;
+}
+
+.format{
+  display: flex;
+  flex-direction: row;
+}
+.searchpole{
+  width: 20%;
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  background-color: #2C4869;
+}
+
+.searchknopka {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -30px;
+}
+
+.searchknopka img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.allcont{
+	display: flex;
+	margin-top: 30px;
+}
+.ssylka a{
+	display: flex;
+	width: 100px;
+	padding-top: 20px;
+	direction: column;
+	text-decoration: none;
+	color: #00365c;
+	font-size: 15px;
+}
+.ssylka{
+	margin-left: 200px;
+}
+.seconddiv{
+	display: flex;
+	height: 1000px;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-left: 55px;
+}
+.friendsdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+	height: 50px;
+	background-color: whitesmoke;
+	border-radius:5px ;
+	font-size: 14px;
+}
+.friendscnt{
+	color:grey;
+	margin-left: 5px;
+}
+.friendsdiv button{
+	background-color:#2d7eb9 ;
+	color: white;
+	border-radius: 3px;
+	border: none;
+	width: 120px;
+	height: 25px;
+}
+.friends1{
+	margin-left: 10px;
+}
+.friendsfind{
+	margin-right: 10px;
+}
+.friendsonline{
+	margin-left: 10px;
+}
+.searchfriends{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	width: 600px;
+	height: 50px;
+	background-color: whitesmoke;
+	margin-top: 2px;
+}
+.searchfriends img{
+	margin-left: 10px;
+	width: 15px;
+	height: 15px;
+}
+.searchfriends div{
+	margin-left: 20px;
+	color:grey;
+	font-size: 15px;
+}
+.friendcontent{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 2px;
+	background-color: whitesmoke;
+	width: 600px;
+	height: 100px;
+}
+.friendcontent1 img{
+	margin-left: 10px;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+.friendsinfo1{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+
+}
+.friendsinfo1 b{
+	color: #2d7eb9 ;
+	margin-bottom: 10px;
+
+}
+.friendsinfo1 span{
+	font-size: 13px;
+	color: grey;
+	margin-bottom: 10px;
+}
+.friendsinfo1 a{
+	text-decoration:none ;
+	margin-bottom: 10px;
+	color: #2d7eb9 ;
+	font-size: 15px;
+}
+.inp {
+	font-size: 20px;
+	text-decoration: none;
+	color: #a093c2;
+	margin-left: 385px;
+
+}
+.restcontent{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.restcontent1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border-radius: 5px;
+	width: 300px;
+	height: 300px;
+	background-color: whitesmoke;
+}
+.restcontentFriends{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	height: 40px;
+	background-color: #EDEDFD;
+}
+.restcontentFriends b{
+	margin-left: 15px;
+}
+.listFriends{
+	margin-left: 15px;
+}
+.strelka{
+	margin-bottom: 5px;
+	font-size: 10px;
+}
+.vozmojnyefriends{
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	margin-top: 30px;
+	background-color: white;
+	width: 300px;
+	height: 450px;
+}
+.vozmojnyefriends1{
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.vozmojnyiFriend{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 20px;
+}
+.vozmojnyiFriend1 img{
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+
+}
+.vozmojnyiFriendInfo{
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+
+}
+.vozmojnyiFriendName{
+	color: #2d7eb9 ;
+	margin-bottom: 5px;
+	font-size: 15px;
+
+}
+.vozmojnyiFriendInfo a{
+	text-decoration:none ;
+	color: #2d7eb9 ;
+	font-size: 15px;
+}
+.vozmojnyiFriendCnt{
+	font-size: 15px;
+	color: grey;
+	margin-bottom: 5px;
+}
