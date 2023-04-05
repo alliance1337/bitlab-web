@@ -1,0 +1,77 @@
+body{
+	margin: 30px;
+	margin-top: 0px;
+}
+.content{
+	font-family: Helvetica;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	background-color: #2C8391;
+}
+.bitlab{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+.news{
+	color: white;
+	text-decoration: none;
+	font-weight: 100;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	font-weight: 100;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	margin-left: 10px;
+	color: #8EC9CF;
+}
+.reg{
+	text-align: center;
+}
+.spanemail{
+	margin-left: -195px;
+}
+.spanpass{
+	margin-left: -160px;
+}
+.sign{
+	color: white;
+	background-color: #00008B;
+	margin-left: -175px;
+	height:40px;
+	width: 80px;
+}
+.emailinput{
+	margin-left: 20px;
+	color:grey;
+	font-size: 15px;
+	border: 1px solid #E5E8EB;
+	padding: 5px;
+}
+.passinput{
+	margin-left: 20px;
+	color:grey;
+	font-size: 15px;
+	border: 1px solid #E5E8EB;
+	padding: 5px;
+}
+.container{
+	text-align: center;
+}
+.label-email{
+	margin-left: -100px;
+}
+.label-pass{
+	margin-left: -70px;
+}
+.label-name{
+	margin-left: -65px;
+}

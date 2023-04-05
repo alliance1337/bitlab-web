@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>
+        Twitter
+    </title>
+<link rel="stylesheet" type="text/css" href="twitterLoginPage.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#" class="bitlab"> <span class="news" style="font-weight: 100;">TWITTER</span></a>
+            </div>
+            <div class="menu">
+                <a href="#">Tweets</a>
+                <a href="Login.html">Login</a>
+                <a href="Registration.html">Register</a>
+            </div>          
+        </div>
+    </div>
+
+    <br>
+
+    <div class="reg">
+        <div class="email">
+            <span class="spanemail">EMAIL:</span>
+            <br>
+            <input type="text" size="30" width="1000px" class="emailinput" id="email" placeholder="Enter email" name="email">            
+        </div>
+
+        <br>
+
+        <div class="pass" >
+            <span class="spanpass">PASSWORD:</span>
+            <br>
+            <input type="password" size="30" width="1000px" class="passinput" id="psw" placeholder="Enter password" name="pwd">        
+        </div>
+        <br>
+        <button type = "button" class="sign" onclick="saveData()" id="save_btn">SIGN IN</button>
+    </div>
+</form>
+</div>
+
+
+
+</body>
+<script>
+
+  //  let name=localStorage.getItem('name')?localStorage.getItem('name'):''
+  //  console.log(name);
+  //  if(name!='')
+  //  {
+  //     alert('Please visit profile');
+  //     window.location.href="profile.html";
+  // }
+  function saveData()
+  {
+    let email,psw,country,birthday;
+    email=document.getElementById("email").value;
+    psw=document.getElementById("psw").value;
+    country=localStorage.getItem("country");
+    birthday=localStorage.getItem("birthday");
+
+    let user_records=new Array();
+    user_records=JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[]
+    if(user_records.some((v)=>{return v.email==email && v.psw==psw}))
+    {
+      alert("Login success");
+      let current_user=user_records.filter((v)=>{return v.email==email && v.psw==psw})[0]
+      localStorage.setItem('name',current_user.name);
+      localStorage.setItem('email',current_user.email);
+      localStorage.setItem('country',current_user.country);
+      localStorage.setItem('birthday',current_user.birthday);
+      window.location.href="profile.html"
+  }
+  else
+  {
+      alert('Login fail');
+  }
+}
+
+</script>
+</html>
